@@ -26,9 +26,23 @@ Optional confidence intervals
 Interactive forecast plots
 
 ├── app.R                       # Main Shiny App
-├── AustralianWines.csv         # Input dataset
+├── AustralianWines.csv         # dataset
 ├── AustralianWinesSA.qmd       # Quarto report used to build the app
 ├── manifest.json               # Deployment dependency file for Posit Connect
-├── data/                       # Supporting files if needed
+├── data/                       # Supporting files 
 ├── README.md                   # Project documentation
 └── posi_clous_setup.R          # Posit Connect deploy script
+
+The dataset includes:
+
+Monthly wine sales for:
+Fortified
+Red
+Rosé
+Sparkling
+Sweet white
+Dry white
+
+Years: 1980–1995
+
+Units: Thousand liters
